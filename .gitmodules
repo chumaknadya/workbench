@@ -18,3 +18,7 @@
 	path = test/toolbox
 	url = https://github.com/rubykube/toolbox.git
 	branch = "master"
+[submodule "app/applogic"]
+	path = app/applogic
+	url = git@github.com:rubykube/applogic.git
+	branch = "master"

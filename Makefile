@@ -63,6 +63,9 @@ run: prepare setup-apps
 test:
 	@$(COMPOSE) run --rm integration
 
+applogic:
+	$(COMPOSE) up --build -d applogic
+
 stress:
 	@bundle exec rake toolbox:run
 
